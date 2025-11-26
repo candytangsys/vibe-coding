@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人網站</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 導航欄 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">個人網站</div>
+            <ul class="nav-menu">
+                <li><a href="#about">關於我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#portfolio">作品集</a></li>
+                <li><a href="#daily">我的日常</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主內容區 -->
+    <main>
+        <!-- 自我介紹區塊 - 全屏英雄區 -->
+        <section id="about" class="section hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-number">01</div>
+                    <h1 class="hero-title">
+                        <span class="title-line">關於</span>
+                        <span class="title-line highlight">我</span>
+                    </h1>
+                    <div class="about-content">
+                        <div class="about-text-wrapper">
+                            <p class="about-text large-text">
+                                <!-- 👇 以下內容可根據需要修改 -->
+                                這裡是自我介紹的文字內容。您可以在此描述您的背景、興趣、專業領域等。
+                                請根據個人需求替換這段文字。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 技能區塊 - 非對稱佈局 -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-number">02</div>
+                    <h2 class="section-title-large">技能</h2>
+                </div>
+                <div id="skills-container" class="skills-grid">
+                    <!-- 技能內容將由 JavaScript 動態生成 -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 作品集區塊 - 交錯佈局 -->
+        <section id="portfolio" class="section portfolio-section">
+            <div class="container">
+                <div class="section-header reverse">
+                    <div class="section-number">03</div>
+                    <h2 class="section-title-large">作品集</h2>
+                </div>
+                <div id="portfolio-container" class="portfolio-grid">
+                    <!-- 作品內容將由 JavaScript 動態生成 -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 我的日常區塊 - 大文字區 -->
+        <section id="daily" class="section daily-section">
+            <div class="container">
+                <div class="daily-wrapper">
+                    <div class="section-number-small">04</div>
+                    <h2 class="section-title-huge">我的日常</h2>
+                    <div class="daily-content">
+                        <p class="daily-text large-text">
+                            <!-- 👇 以下內容可根據需要修改 -->
+                            這裡是日常生活的描述。您可以分享您的興趣、習慣、日常活動等。
+                            請根據個人需求替換這段文字。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 頁尾 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; TANG 個人網站。保留所有權利。</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
